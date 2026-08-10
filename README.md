@@ -1,29 +1,68 @@
-Overview
+# Breast Cancer Detection using Machine Learning
 
-A Machine Learning project to classify breast tumors as Malignant or Benign using medical diagnostic data. The model helps in early detection by learning patterns from tumor features.
+This is a basic machine learning project for detecting whether a breast tumor is **Benign** or **Malignant** using diagnostic features.
 
-🛠️ Tech Stack
+## About the Project
 
-Python
+The project uses machine learning classification algorithms to predict breast cancer based on tumor-related features. Different models were tested and compared to select the best-performing model.
 
-Pandas, NumPy
+## Dataset
 
-Matplotlib, Seaborn
+The dataset contains features related to breast tumor characteristics such as:
 
-Scikit-learn
+* Radius
+* Texture
+* Perimeter
+* Area
+* Smoothness
+* Compactness
+* Concavity
+* Symmetry
 
-Jupyter Notebook
+## Machine Learning Models
 
-🤖 ML Models
+The following models were tested:
 
-Logistic Regression
+* Support Vector Machine (SVM)
+* Logistic Regression
+* Random Forest
+* XGBoost
+* K-Nearest Neighbors (KNN)
 
-Decision Tree
+## Best Model
 
-Random Forest (best performance)
+**Support Vector Machine (SVM)**
 
-📊 Results
+**Accuracy: ~98%**
 
-Achieved high accuracy in tumor classification
+## Technologies Used
 
-Random Forest performed best among tested models
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* XGBoost
+
+## Preprocessing
+
+* Handling missing values
+* Encoding diagnosis labels
+* Feature scaling using StandardScaler
+* Train-test split
+
+## Evaluation
+
+The model was evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* ROC Curve
+
+## Project Status
+
+Completed as a college machine learning project.
